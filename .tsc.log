@@ -1,0 +1,8 @@
+app/layout.tsx(5,8): error TS2613: Module '"/workspace/components/CookieConsent"' has no default export. Did you mean to use 'import { CookieConsent } from "/workspace/components/CookieConsent"' instead?
+app/layout.tsx(11,8): error TS2613: Module '"/workspace/components/cart/CartFlow"' has no default export. Did you mean to use 'import { CartFlow } from "/workspace/components/cart/CartFlow"' instead?
+app/layout.tsx(61,37): error TS2322: Type '{ color: string; opacity: number; }' is not assignable to type 'IntrinsicAttributes & Props'.
+  Property 'opacity' does not exist on type 'IntrinsicAttributes & Props'.
+app/privacy/page.tsx(14,20): error TS2307: Cannot find module '@/components/Header' or its corresponding type declarations.
+app/privacy/page.tsx(16,28): error TS2307: Cannot find module '@/lib/site-config' or its corresponding type declarations.
+app/terms/page.tsx(11,20): error TS2307: Cannot find module '@/components/Header' or its corresponding type declarations.
+app/terms/page.tsx(13,28): error TS2307: Cannot find module '@/lib/site-config' or its corresponding type declarations.

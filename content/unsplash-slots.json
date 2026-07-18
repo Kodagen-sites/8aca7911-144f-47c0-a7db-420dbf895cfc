@@ -1,0 +1,17 @@
+[
+  { "slot": "section-about-hero", "keyword": "atelier fashion studio warm light", "orientation": "landscape" },
+  { "slot": "section-contact-hero", "keyword": "atelier interior warm terracotta", "orientation": "landscape" },
+  { "slot": "section-services-hero", "keyword": "african fashion editorial linen", "orientation": "landscape" },
+  { "slot": "section-work-hero", "keyword": "editorial womenswear lookbook", "orientation": "landscape" },
+  { "slot": "section-cta", "keyword": "warm draped fabric ochre linen", "orientation": "landscape" },
+  { "slot": "section-founder", "keyword": "african fashion designer atelier portrait", "orientation": "portrait" },
+  { "slot": "section-showcase-1", "keyword": "editorial african fashion dress ochre", "orientation": "portrait" },
+  { "slot": "section-showcase-2", "keyword": "african headwrap fashion editorial", "orientation": "portrait" },
+  { "slot": "section-showcase-3", "keyword": "african two piece set fashion", "orientation": "portrait" },
+  { "slot": "section-showcase-4", "keyword": "african fashion accessories detail", "orientation": "portrait" },
+  { "slot": "og-image", "keyword": "editorial african womenswear atelier", "orientation": "landscape", "w": 1200, "h": 630 },
+  { "slot": "service-dresses", "keyword": "african dress editorial ochre linen", "orientation": "portrait" },
+  { "slot": "service-two-piece-sets", "keyword": "african two piece womenswear set", "orientation": "portrait" },
+  { "slot": "service-headwraps-accessories", "keyword": "african headwrap accessory ochre", "orientation": "portrait" },
+  { "slot": "service-limited-drops", "keyword": "limited fashion drop editorial", "orientation": "portrait" }
+]

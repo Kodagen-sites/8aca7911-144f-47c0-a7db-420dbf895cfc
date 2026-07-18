@@ -1,0 +1,24 @@
+{
+  "bucket": "site-assets",
+  "projectId": "8aca7911-144f-47c0-a7db-420dbf895cfc",
+  "ref": "",
+  "images": {
+    "section-contact-hero": "https://images.unsplash.com/photo-1611223178525-9cefc1fcc295?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw2fHxhdGVsaWVyJTIwaW50ZXJpb3IlMjB3YXJtJTIwdGVycmFjb3R0YXxlbnwxfDB8fHwxNzg0Mzk5MzIyfDA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-services-hero": "https://images.unsplash.com/photo-1669518250468-bf9767eb2687?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw0fHxhZnJpY2FuJTIwZmFzaGlvbiUyMGVkaXRvcmlhbCUyMGxpbmVufGVufDF8MHx8fDE3ODQzOTkzMjJ8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-about-hero": "https://images.unsplash.com/photo-1683362249825-77b26dcb1330?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw5fHxhdGVsaWVyJTIwZmFzaGlvbiUyMHN0dWRpbyUyMHdhcm0lMjBsaWdodHxlbnwxfDB8fHwxNzg0Mzk5MzIyfDA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-work-hero": "https://images.unsplash.com/photo-1779398261180-9a8568c5a426?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw3fHxlZGl0b3JpYWwlMjB3b21lbnN3ZWFyJTIwbG9va2Jvb2t8ZW58MXwwfHx8MTc4NDM5OTMyMnww&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-showcase-1": "https://images.unsplash.com/photo-1635451321943-e427318f058c?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHwyfHxlZGl0b3JpYWwlMjBhZnJpY2FuJTIwZmFzaGlvbiUyMGRyZXNzJTIwb2NocmV8ZW58MXwxfHx8MTc4NDM5OTMyM3ww&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-showcase-2": "https://images.unsplash.com/photo-1613876215075-276fd62c89a4?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwaGVhZHdyYXAlMjBmYXNoaW9uJTIwZWRpdG9yaWFsfGVufDF8MXx8fDE3ODQzOTkzMjN8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-showcase-4": "https://images.unsplash.com/photo-1709884071733-2938bb0bb27a?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw5fHxhZnJpY2FuJTIwZmFzaGlvbiUyMGFjY2Vzc29yaWVzJTIwZGV0YWlsfGVufDF8MXx8fDE3ODQzOTkzMjN8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-showcase-3": "https://images.unsplash.com/photo-1659817526829-1c570ea3b947?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHwxMHx8YWZyaWNhbiUyMHR3byUyMHBpZWNlJTIwc2V0JTIwZmFzaGlvbnxlbnwxfDF8fHwxNzg0Mzk5MzIzfDA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "section-founder": "https://images.unsplash.com/photo-1625646741211-711bdd65c570?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHwyfHxhZnJpY2FuJTIwZmFzaGlvbiUyMGRlc2lnbmVyJTIwYXRlbGllciUyMHBvcnRyYWl0fGVufDF8MXx8fDE3ODQzOTkzMjN8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "service-dresses": "https://images.unsplash.com/photo-1677537947200-c0c34db22a95?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHwyfHxhZnJpY2FuJTIwZHJlc3MlMjBlZGl0b3JpYWwlMjBvY2hyZSUyMGxpbmVufGVufDF8MXx8fDE3ODQzOTkzMjR8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "service-headwraps-accessories": "https://images.unsplash.com/photo-1772537584458-8084ad35b00e?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw5fHxhZnJpY2FuJTIwaGVhZHdyYXAlMjBhY2Nlc3NvcnklMjBvY2hyZXxlbnwxfDF8fHwxNzg0Mzk5MzI0fDA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "service-two-piece-sets": "https://images.unsplash.com/photo-1663044023009-cfdb6dd6b89c?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw4fHxhZnJpY2FuJTIwdHdvJTIwcGllY2UlMjB3b21lbnN3ZWFyJTIwc2V0fGVufDF8MXx8fDE3ODQzOTkzMjR8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "service-limited-drops": "https://images.unsplash.com/photo-1761637328025-bccb6ce8af34?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHwxMHx8bGltaXRlZCUyMGZhc2hpb24lMjBkcm9wJTIwZWRpdG9yaWFsfGVufDF8MXx8fDE3ODQzOTkzMjR8MA&ixlib=rb-4.1.0&w=1920&h=1080&fit=crop&q=80&auto=format",
+    "og-image": "https://images.unsplash.com/photo-1526381999948-730fa670e7d2?ixid=M3w5MjY4OTB8MHwxfHNlYXJjaHw1fHxlZGl0b3JpYWwlMjBhZnJpY2FuJTIwd29tZW5zd2VhciUyMGF0ZWxpZXJ8ZW58MXwwfHx8MTc4NDM5OTMyNHww&ixlib=rb-4.1.0&w=1200&h=630&fit=crop&q=80&auto=format"
+  },
+  "videos": {},
+  "frames": {},
+  "updatedAt": "2026-07-18T18:28:44.443Z"
+}
