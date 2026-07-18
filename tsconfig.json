@@ -26,6 +26,18 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@kodagen/catalog-engine": [
+        "./lib/engines/catalog/index.ts"
+      ],
+      "@kodagen/booking-engine": [
+        "./lib/engines/catalog/index.ts"
+      ],
+      "@kodagen/crm-engine": [
+        "./lib/engines/catalog/index.ts"
+      ],
+      "@kodagen/tickets-engine": [
+        "./lib/engines/catalog/index.ts"
       ]
     }
   },

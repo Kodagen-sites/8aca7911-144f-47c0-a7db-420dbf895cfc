@@ -4,7 +4,10 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function ContactForm() {
-  const [status, setStatus] = useState<"idle" | "sent">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const isSending = status === "sending";
+  const isError = status === "error";
+  const [errorMessage, setErrorMessage] = useState<string>("");
   const [subject, setSubject] = useState("Next-drop list");
 
   const subjects = [
@@ -15,14 +18,40 @@ export default function ContactForm() {
     "Something else",
   ];
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setStatus("sent");
+    setStatus("sending");
+    setErrorMessage("");
+    const form = new FormData(e.currentTarget);
+    const payload = {
+      slug: process.env.NEXT_PUBLIC_SITE_SLUG,
+      name: String(form.get("name") ?? ""),
+      email: String(form.get("email") ?? ""),
+      phone: "",
+      message: `Reason: ${subject}\n\n${String(form.get("message") ?? "")}`,
+    };
+    try {
+      const res = await fetch("/api/inquiries", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json().catch(() => ({ ok: false }));
+      if (res.ok && data?.ok) {
+        setStatus("sent");
+      } else {
+        setStatus("error");
+        setErrorMessage(data?.error ?? "Could not send your note. Please try again.");
+      }
+    } catch {
+      setStatus("error");
+      setErrorMessage("Could not reach the atelier. Please try again in a moment.");
+    }
   };
 
   return (
     <AnimatePresence mode="wait">
-      {status === "idle" ? (
+      {status !== "sent" ? (
         <motion.form
           key="form"
           onSubmit={onSubmit}
@@ -74,10 +103,14 @@ export default function ContactForm() {
           <button
             type="submit"
             className="btn-primary"
+            disabled={isSending}
           >
-            Send note
+            {isSending ? "Sending…" : "Send note"}
             <span aria-hidden>→</span>
           </button>
+          {isError && errorMessage && (
+            <p className="text-sm text-red-700" role="alert">{errorMessage}</p>
+          )}
         </motion.form>
       ) : (
         <motion.div

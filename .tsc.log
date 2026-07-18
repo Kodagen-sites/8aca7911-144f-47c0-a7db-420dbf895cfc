@@ -1,8 +1,202 @@
-app/layout.tsx(5,8): error TS2613: Module '"/workspace/components/CookieConsent"' has no default export. Did you mean to use 'import { CookieConsent } from "/workspace/components/CookieConsent"' instead?
-app/layout.tsx(11,8): error TS2613: Module '"/workspace/components/cart/CartFlow"' has no default export. Did you mean to use 'import { CartFlow } from "/workspace/components/cart/CartFlow"' instead?
-app/layout.tsx(61,37): error TS2322: Type '{ color: string; opacity: number; }' is not assignable to type 'IntrinsicAttributes & Props'.
-  Property 'opacity' does not exist on type 'IntrinsicAttributes & Props'.
-app/privacy/page.tsx(14,20): error TS2307: Cannot find module '@/components/Header' or its corresponding type declarations.
-app/privacy/page.tsx(16,28): error TS2307: Cannot find module '@/lib/site-config' or its corresponding type declarations.
-app/terms/page.tsx(11,20): error TS2307: Cannot find module '@/components/Header' or its corresponding type declarations.
-app/terms/page.tsx(13,28): error TS2307: Cannot find module '@/lib/site-config' or its corresponding type declarations.
+.next/types/validator.ts(53,39): error TS2307: Cannot find module '../../app/about/page.js' or its corresponding type declarations.
+.next/types/validator.ts(62,39): error TS2307: Cannot find module '../../app/checkout/page.js' or its corresponding type declarations.
+.next/types/validator.ts(71,39): error TS2307: Cannot find module '../../app/contact/page.js' or its corresponding type declarations.
+.next/types/validator.ts(80,39): error TS2307: Cannot find module '../../app/order-confirmation/page.js' or its corresponding type declarations.
+.next/types/validator.ts(89,39): error TS2307: Cannot find module '../../app/page.js' or its corresponding type declarations.
+.next/types/validator.ts(98,39): error TS2307: Cannot find module '../../app/privacy/page.js' or its corresponding type declarations.
+.next/types/validator.ts(107,39): error TS2307: Cannot find module '../../app/services/[slug]/page.js' or its corresponding type declarations.
+.next/types/validator.ts(116,39): error TS2307: Cannot find module '../../app/services/page.js' or its corresponding type declarations.
+.next/types/validator.ts(125,39): error TS2307: Cannot find module '../../app/terms/page.js' or its corresponding type declarations.
+.next/types/validator.ts(134,39): error TS2307: Cannot find module '../../app/work/page.js' or its corresponding type declarations.
+app/(site)/page.tsx(28,63): error TS2339: Property 'title' does not exist on type '{ readonly eyebrow: "Atelier · Lagos"; readonly h1Lines: readonly ["Cloth,", "cut with", "restraint."]; readonly subhead: "Small-batch womenswear from a Lagos studio. Dresses, sets, and accessories in limited seasonal runs."; readonly ctaPrimary: { ...; }; readonly ctaSecondary: { ...; }; }'.
+app/(site)/page.tsx(29,34): error TS2339: Property 'subline' does not exist on type '{ headline?: string | undefined; subheadline?: string | undefined; ctaText?: string | undefined; ctaLink?: string | undefined; backgroundImage?: string | undefined; }'.
+app/(site)/page.tsx(29,61): error TS2339: Property 'body' does not exist on type '{ readonly eyebrow: "Atelier · Lagos"; readonly h1Lines: readonly ["Cloth,", "cut with", "restraint."]; readonly subhead: "Small-batch womenswear from a Lagos studio. Dresses, sets, and accessories in limited seasonal runs."; readonly ctaPrimary: { ...; }; readonly ctaSecondary: { ...; }; }'.
+app/(site)/page.tsx(30,34): error TS2339: Property 'eyebrow' does not exist on type '{ headline?: string | undefined; subheadline?: string | undefined; ctaText?: string | undefined; ctaLink?: string | undefined; backgroundImage?: string | undefined; }'.
+app/admin/_actions/media.ts(86,28): error TS7006: Parameter 'm' implicitly has an 'any' type.
+app/admin/_actions/regenerate-copy.ts(3,23): error TS2307: Cannot find module '@anthropic-ai/sdk' or its corresponding type declarations.
+app/admin/_actions/regenerate-copy.ts(196,47): error TS7006: Parameter 'b' implicitly has an 'any' type.
+app/admin/categories/page.tsx(23,74): error TS7006: Parameter 'acc' implicitly has an 'any' type.
+app/admin/categories/page.tsx(23,79): error TS7006: Parameter 'row' implicitly has an 'any' type.
+app/admin/change-password/page.tsx(25,42): error TS7031: Binding element 'data' implicitly has an 'any' type.
+app/admin/content/loading.tsx(1,33): error TS2307: Cannot find module '@/components/admin/admin-skeleton' or its corresponding type declarations.
+app/admin/content/pages/page.tsx(26,47): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/content/social/page.tsx(26,49): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/inquiries/page.tsx(36,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/inquiries/page.tsx(50,47): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/integrations/page.tsx(23,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/integrations/page.tsx(48,7): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/journal/page.tsx(23,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/journal/page.tsx(29,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/loading.tsx(1,32): error TS2307: Cannot find module '@/components/admin/admin-skeleton' or its corresponding type declarations.
+app/admin/media/page.tsx(24,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/media/page.tsx(50,7): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/orders/page.tsx(29,27): error TS7006: Parameter 'o' implicitly has an 'any' type.
+app/admin/page.tsx(43,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/page.tsx(90,40): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+app/admin/page.tsx(90,45): error TS7006: Parameter 't' implicitly has an 'any' type.
+app/admin/page.tsx(92,14): error TS7006: Parameter 't' implicitly has an 'any' type.
+app/admin/page.tsx(93,14): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+app/admin/page.tsx(93,19): error TS7006: Parameter 't' implicitly has an 'any' type.
+app/admin/reports/page.tsx(27,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/reports/page.tsx(31,63): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/reports/page.tsx(41,51): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/settings/page.tsx(21,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/settings/page.tsx(35,7): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/subscribers/page.tsx(35,45): error TS7006: Parameter 's' implicitly has an 'any' type.
+app/admin/team/page.tsx(24,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/team/page.tsx(35,43): error TS7006: Parameter 'm' implicitly has an 'any' type.
+app/admin/team/page.tsx(41,55): error TS7006: Parameter 'm' implicitly has an 'any' type.
+app/admin/team/page.tsx(54,40): error TS7006: Parameter 'a' implicitly has an 'any' type.
+app/admin/team/page.tsx(64,75): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/testimonials/page.tsx(24,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/testimonials/page.tsx(28,62): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/testimonials/page.tsx(41,56): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/transactions/page.tsx(24,26): error TS18047: 'ctx.site' is possibly 'null'.
+app/admin/transactions/page.tsx(44,58): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/transactions/page.tsx(46,62): error TS7006: Parameter 'r' implicitly has an 'any' type.
+app/admin/transactions/page.tsx(54,32): error TS2339: Property 'name' does not exist on type '{}'.
+app/admin/transactions/page.tsx(55,32): error TS2339: Property 'type' does not exist on type '{}'.
+app/admin/transactions/page.tsx(73,56): error TS2322: Type 'SiteConfig | null' is not assignable to type 'SiteConfig'.
+  Type 'null' is not assignable to type 'SiteConfig'.
+app/admin/users/[user_id]/page.tsx(100,43): error TS2322: Type '{ children: Element; variant: "ghost"; size: "sm"; asChild: true; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+app/admin/users/page.tsx(57,34): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/admin/users/page.tsx(64,51): error TS7006: Parameter 'c' implicitly has an 'any' type.
+app/api/orders/route.ts(111,47): error TS7006: Parameter 'p' implicitly has an 'any' type.
+app/api/orders/route.ts(122,29): error TS2339: Property 'in_stock' does not exist on type '{}'.
+app/api/orders/route.ts(123,28): error TS2339: Property 'name' does not exist on type '{}'.
+app/api/orders/route.ts(123,64): error TS2339: Property 'price_cents' does not exist on type '{}'.
+app/api/qr/route.ts(2,20): error TS2307: Cannot find module 'qrcode' or its corresponding type declarations.
+components/AccountAuthLinks.tsx(39,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/AccountAuthLinks.tsx(79,73): error TS7006: Parameter '_event' implicitly has an 'any' type.
+components/AccountAuthLinks.tsx(79,81): error TS7006: Parameter 'session' implicitly has an 'any' type.
+components/AccountAuthLinks.tsx(145,29): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+components/AccountAuthLinks.tsx(151,29): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+components/AccountAuthLinks.tsx(199,41): error TS2322: Type '{ children: Element; variant: "ghost"; size: "sm"; asChild: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+components/AccountAuthLinks.tsx(202,25): error TS2322: Type '{ children: Element; size: "sm"; asChild: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+components/AccountHeader.tsx(21,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/AccountHeader.tsx(57,49): error TS2322: Type '{ children: Element; variant: "ghost"; size: "sm"; asChild: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+components/AccountHeader.tsx(60,33): error TS2322: Type '{ children: Element; size: "sm"; asChild: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+components/AccountHeader.tsx(79,35): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+components/AccountHeader.tsx(85,35): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+components/AnalyticsScripts.tsx(20,28): error TS7006: Parameter 'r' implicitly has an 'any' type.
+components/ContactForm.tsx(104,23): error TS2367: This comparison appears to be unintentional because the types '"idle"' and '"sending"' have no overlap.
+components/ContactForm.tsx(106,14): error TS2367: This comparison appears to be unintentional because the types '"idle"' and '"sending"' have no overlap.
+components/ContactForm.tsx(109,12): error TS2367: This comparison appears to be unintentional because the types '"idle"' and '"error"' have no overlap.
+components/account/ForgotPasswordForm.tsx(70,35): error TS2322: Type '{ children: Element; variant: "outline"; asChild: true; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+components/account/ForgotPasswordForm.tsx(115,33): error TS2322: Type '{ children: Element; variant: "ghost"; asChild: true; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+components/account/LoginForm.tsx(18,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/account/ProfileForm.tsx(17,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/account/ResetPasswordForm.tsx(15,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/account/SignupForm.tsx(17,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/admin/subscribers/SubscribersTable.tsx(19,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/admin/users/CustomerActionPanel.tsx(23,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/admin/users/CustomerEngineTab.tsx(44,21): error TS7006: Parameter 'o' implicitly has an 'any' type.
+components/admin/users/CustomerEngineTab.tsx(77,23): error TS7006: Parameter 'b' implicitly has an 'any' type.
+components/admin/users/CustomerEngineTab.tsx(110,24): error TS7006: Parameter 'p' implicitly has an 'any' type.
+components/admin/users/CustomerEngineTab.tsx(143,24): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/admin/users/CustomerNotesEditor.tsx(11,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/admin/users/CustomersTable.tsx(31,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/admin/users/CustomersTable.tsx(237,45): error TS2322: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & HTMLAttributes<HTMLButtonElement> & { onSelect?: (() => void) | undefined; }'.
+components/floor-plan.tsx(9,37): error TS2307: Cannot find module '@/data/mock-rooms' or its corresponding type declarations.
+components/floor-plan.tsx(415,38): error TS7006: Parameter 'w' implicitly has an 'any' type.
+components/floor-plan.tsx(500,18): error TS2719: Type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'. Two different types with this name exist, but they are unrelated.
+  Type '{ readonly bg: "linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"; readonly paper: "#0a2540"; readonly wallMain: "#cfe7ff"; readonly wallInner: "#9bc8ef"; readonly annotation: "#7fb1da"; readonly gridLine: "rgba(159,200,239,0.08)"; readonly titleBlock: "rgba(255,255,255,0.06)"; readonly label: "#eaf6ff"; readonly f...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'.
+    Types of property 'bg' are incompatible.
+      Type '"linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"' is not assignable to type '"linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"'.
+components/floor-plan.tsx(501,18): error TS2719: Type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'. Two different types with this name exist, but they are unrelated.
+  Type '{ readonly bg: "linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"; readonly paper: "#0a2540"; readonly wallMain: "#cfe7ff"; readonly wallInner: "#9bc8ef"; readonly annotation: "#7fb1da"; readonly gridLine: "rgba(159,200,239,0.08)"; readonly titleBlock: "rgba(255,255,255,0.06)"; readonly label: "#eaf6ff"; readonly f...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'.
+    Types of property 'bg' are incompatible.
+      Type '"linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"' is not assignable to type '"linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"'.
+components/floor-plan.tsx(502,18): error TS2719: Type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'. Two different types with this name exist, but they are unrelated.
+  Type '{ readonly bg: "linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"; readonly paper: "#0a2540"; readonly wallMain: "#cfe7ff"; readonly wallInner: "#9bc8ef"; readonly annotation: "#7fb1da"; readonly gridLine: "rgba(159,200,239,0.08)"; readonly titleBlock: "rgba(255,255,255,0.06)"; readonly label: "#eaf6ff"; readonly f...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'.
+    Types of property 'bg' are incompatible.
+      Type '"linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"' is not assignable to type '"linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"'.
+components/floor-plan.tsx(602,17): error TS2719: Type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'. Two different types with this name exist, but they are unrelated.
+  Type '{ readonly bg: "linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"; readonly paper: "#0a2540"; readonly wallMain: "#cfe7ff"; readonly wallInner: "#9bc8ef"; readonly annotation: "#7fb1da"; readonly gridLine: "rgba(159,200,239,0.08)"; readonly titleBlock: "rgba(255,255,255,0.06)"; readonly label: "#eaf6ff"; readonly f...' is not assignable to type '{ readonly bg: "linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"; readonly paper: "#fbf8f3"; readonly wallMain: "#1f2937"; readonly wallInner: "#374151"; readonly annotation: "#6b7280"; readonly gridLine: "rgba(15,23,42,0.04)"; readonly titleBlock: "rgba(255,255,255,0.65)"; readonly label: "#1e293b"; readonly furn...'.
+    Types of property 'bg' are incompatible.
+      Type '"linear-gradient(135deg, #0a2540 0%, #0d3a6b 100%)"' is not assignable to type '"linear-gradient(135deg, #fbf8f3 0%, #f0eadb 100%)"'.
+components/marketing/NewsletterSignup.tsx(17,23): error TS2307: Cannot find module 'sonner' or its corresponding type declarations.
+components/mini-floor-plan-picker.tsx(291,7): error TS17001: JSX elements cannot have multiple attributes with the same name.
+lib/cn.ts(2,25): error TS2307: Cannot find module 'tailwind-merge' or its corresponding type declarations.
+lib/copy-refinement.ts(22,34): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+lib/email/domains.ts(1,24): error TS2307: Cannot find module 'resend' or its corresponding type declarations.
+lib/email/send.ts(2,24): error TS2307: Cannot find module 'resend' or its corresponding type declarations.
+lib/load-site-config.ts(260,58): error TS7006: Parameter 't' implicitly has an 'any' type.
+lib/payments/providers.ts(44,5): error TS2322: Type '({ kind: "paystack" | "stripe"; config: unknown; enabled: boolean | null; } | null)[]' is not assignable to type '{ kind: string; config: unknown; enabled: boolean | null; }[]'.
+  Type '{ kind: "paystack" | "stripe"; config: unknown; enabled: boolean | null; } | null' is not assignable to type '{ kind: string; config: unknown; enabled: boolean | null; }'.
+    Type 'null' is not assignable to type '{ kind: string; config: unknown; enabled: boolean | null; }'.
+lib/payments/providers.ts(51,24): error TS2677: A type predicate's type must be assignable to its parameter's type.
+  Type '{ kind: string; config: unknown; enabled: boolean | null; }' is not assignable to type '{ kind: "paystack" | "stripe"; config: unknown; enabled: boolean | null; }'.
+    Types of property 'kind' are incompatible.
+      Type 'string' is not assignable to type '"paystack" | "stripe"'.
+lib/public-journal.ts(17,21): error TS2339: Property 'journal' does not exist on type '{ readonly company: { readonly name: "Lane Proof Atelier"; readonly tagline: "Small-batch womenswear, cut with intent."; readonly description: "A Lagos studio designing contemporary African womenswear in limited seasonal runs. Dresses, sets, and accessories cut with restraint and finished by hand."; readonly email: ...'.
+lib/public-journal.ts(17,34): error TS7006: Parameter 'p' implicitly has an 'any' type.
+lib/public-journal.ts(60,22): error TS7006: Parameter 'r' implicitly has an 'any' type.
+lib/seo.ts(5,10): error TS2724: '"@/lib/site-config"' has no exported member named 'siteConfig'. Did you mean 'SiteConfig'?
+lib/site-content.ts(20,50): error TS2307: Cannot find module '@supabase/supabase-js' or its corresponding type declarations.
+lib/supabase/admin.ts(14,30): error TS2307: Cannot find module '@supabase/supabase-js' or its corresponding type declarations.
+lib/supabase/client.ts(3,37): error TS2307: Cannot find module '@supabase/ssr' or its corresponding type declarations.
+lib/supabase/middleware.ts(26,56): error TS2307: Cannot find module '@supabase/ssr' or its corresponding type declarations.
+lib/supabase/server.ts(1,56): error TS2307: Cannot find module '@supabase/ssr' or its corresponding type declarations.
+lib/templates/registry.ts(12,36): error TS2307: Cannot find module '@/components/templates/aviation-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(13,32): error TS2307: Cannot find module '@/components/templates/auto/meta' or its corresponding type declarations.
+lib/templates/registry.ts(14,32): error TS2307: Cannot find module '@/components/templates/auto-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(15,34): error TS2307: Cannot find module '@/components/templates/beauty-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(16,34): error TS2307: Cannot find module '@/components/templates/beauty-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(17,36): error TS2307: Cannot find module '@/components/templates/cleaning-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(18,36): error TS2307: Cannot find module '@/components/templates/cleaning-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(19,40): error TS2307: Cannot find module '@/components/templates/construction-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(20,40): error TS2307: Cannot find module '@/components/templates/construction-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(21,38): error TS2307: Cannot find module '@/components/templates/consulting-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(22,38): error TS2307: Cannot find module '@/components/templates/consulting-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(23,37): error TS2307: Cannot find module '@/components/templates/education-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(24,37): error TS2307: Cannot find module '@/components/templates/education-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(25,35): error TS2307: Cannot find module '@/components/templates/fashion-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(26,35): error TS2307: Cannot find module '@/components/templates/fashion-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(27,35): error TS2307: Cannot find module '@/components/templates/fitness-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(28,35): error TS2307: Cannot find module '@/components/templates/fitness-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(29,39): error TS2307: Cannot find module '@/components/templates/hospitality/meta' or its corresponding type declarations.
+lib/templates/registry.ts(30,31): error TS2307: Cannot find module '@/components/templates/law-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(31,31): error TS2307: Cannot find module '@/components/templates/law-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(32,35): error TS2307: Cannot find module '@/components/templates/medical-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(33,35): error TS2307: Cannot find module '@/components/templates/medical-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(34,34): error TS2307: Cannot find module '@/components/templates/oilgas-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(35,34): error TS2307: Cannot find module '@/components/templates/oilgas-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(36,40): error TS2307: Cannot find module '@/components/templates/professional/meta' or its corresponding type declarations.
+lib/templates/registry.ts(37,38): error TS2307: Cannot find module '@/components/templates/realestate/meta' or its corresponding type declarations.
+lib/templates/registry.ts(38,38): error TS2307: Cannot find module '@/components/templates/realestate-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(39,38): error TS2307: Cannot find module '@/components/templates/restaurant-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(40,38): error TS2307: Cannot find module '@/components/templates/restaurant-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(41,36): error TS2307: Cannot find module '@/components/templates/security-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(42,36): error TS2307: Cannot find module '@/components/templates/security-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(43,36): error TS2307: Cannot find module '@/components/templates/security-v3/meta' or its corresponding type declarations.
+lib/templates/registry.ts(44,36): error TS2307: Cannot find module '@/components/templates/security-v4/meta' or its corresponding type declarations.
+lib/templates/registry.ts(45,32): error TS2307: Cannot find module '@/components/templates/tech-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(46,32): error TS2307: Cannot find module '@/components/templates/tech-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(47,34): error TS2307: Cannot find module '@/components/templates/travel-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(48,34): error TS2307: Cannot find module '@/components/templates/travel-v2/meta' or its corresponding type declarations.
+lib/templates/registry.ts(49,46): error TS2307: Cannot find module '@/components/templates/universal-editorial-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(50,57): error TS2307: Cannot find module '@/components/templates/universal-editorial-consultancy-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(51,51): error TS2307: Cannot find module '@/components/templates/universal-editorial-hotel-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(52,52): error TS2307: Cannot find module '@/components/templates/universal-security-premium-v1/meta' or its corresponding type declarations.
+lib/templates/registry.ts(53,32): error TS2307: Cannot find module '@/components/templates/vodi-v1/meta' or its corresponding type declarations.
+proxy.ts(9,56): error TS2307: Cannot find module '@supabase/ssr' or its corresponding type declarations.

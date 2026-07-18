@@ -9,9 +9,21 @@ import MagneticButton from "@/components/motion/MagneticButton";
 const heroVideoSlot = "scene-1";
 const heroPosterSlot = "section-services-hero";
 
-export default function HeroSection() {
+export default function HeroSection({
+  headlineOverride,
+  sublineOverride,
+  eyebrowOverride,
+}: {
+  headlineOverride?: string;
+  sublineOverride?: string;
+  eyebrowOverride?: string;
+} = {}) {
   const videoUrl = (assetManifest as any).videos?.[heroVideoSlot] || "";
   const posterUrl = (assetManifest as any).images?.[heroPosterSlot] || "";
+  const eyebrowText = eyebrowOverride || siteConfig.hero.eyebrow;
+  const sublineText = sublineOverride || siteConfig.hero.subhead;
+  // headlineOverride, if provided from CMS, replaces the multi-line H1 with a single line
+  const headlineLinesOverride = headlineOverride ? [headlineOverride] : null;
 
   return (
     <section className="relative h-[100svh] w-full overflow-hidden bg-bg">
@@ -58,13 +70,13 @@ export default function HeroSection() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="pt-12 md:pt-16"
         >
-          <div className="eyebrow mb-6">{siteConfig.hero.eyebrow}</div>
+          <div className="eyebrow mb-6">{eyebrowText}</div>
 
           <h1
             className="h-display text-ink"
             style={{ fontSize: "clamp(64px, 11vw, 180px)" }}
           >
-            {siteConfig.hero.h1Lines.map((line, i) => (
+            {(headlineLinesOverride ?? siteConfig.hero.h1Lines).map((line, i) => (
               <motion.span
                 key={i}
                 initial={{ opacity: 0, y: 24 }}
@@ -86,7 +98,7 @@ export default function HeroSection() {
           className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 max-w-6xl"
         >
           <p className="max-w-md text-base md:text-lg text-ink-soft leading-relaxed">
-            {siteConfig.hero.subhead}
+            {sublineText}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
